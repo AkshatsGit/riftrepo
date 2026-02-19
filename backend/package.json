@@ -1,0 +1,21 @@
+{
+  "name": "devops-agent-backend",
+  "version": "1.0.0",
+  "description": "Autonomous DevOps Agent Backend",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "simple-git": "^3.27.0"
+  }
+}
